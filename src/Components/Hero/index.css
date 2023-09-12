@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+/* body {
+  background-image: url('../../assets/nike.jpeg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+:root {
+  --blue: #0b5c9a;
+  --light: #c6d9e7;
+  --white: #ffffff;
+  --dark: #061c2c;
+}
+
+.cover {
+  background-image: url('../../assets/nike.jpeg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-container {
+  /* max-width: 1300px; */
+  width: 50%;
+  margin: auto;
+  padding: 1.5rem;
+  align-items: center;
+  position: relative;
+  top: auto;
+  transform: translateY(25rem, -25rem);
+}
+
+.hero-h1 {
+  color: var(--white);
+  font-size: 4rem;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button {
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn button:hover {
+  background-color: #04233d;
+  border-color: #042d4e;
+  cursor: pointer;
+}
